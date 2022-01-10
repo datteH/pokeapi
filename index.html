@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Prueba de conocimiento</title>    
+    
+    <!--CEO-->
+    <meta charset="UTF-8">
+    <meta name="title" content="Pokeapi">
+    <meta name="description" content="Sitio creado para probar Pokeapi">  
+    <meta name="keywords" content="Pokeapi"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/ico32.png" sizes="32x32" />
+    <link rel="icon" href="assets/img/ico192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="assets/img/ico180.png">
+
+    <!--Css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>    
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>   
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css"/> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pangolin">
+
+  </head>  
+  <body>    
+    <nav> 
+      <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <ul class="nav flex-column text-white w-100">
+          <a href="#" class="h3 my-2">
+            <img src="assets/img/pokemon_logo.png" class="w100 brand">
+          </a>
+          <li class="nav-link opt_menu">
+            <a href="#"><span class="mx-2">INICIO</span></a>
+          </li>
+          <li class="nav-link opt_menu">
+            <a href="#historia"><span class="mx-2">HISTORIA</span></a>
+          </li>
+          <li class="nav-link opt_menu">
+            <a href="#pokemones"><span class="mx-2">POKÉMONES</span></a>
+          </li>
+          <li class="nav-link opt_menu">
+            <a href="#contactenos"><span class="mx-2">CONTÁCTENOS</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+    <section>
+      <div class="my-container active-cont" id="mc">
+        <nav class="navbar top-navbar navbar-light bg-light px-5">
+          <a class="btn border-0" id="menu-btn"><img src="assets/img/ball.png" class="pokeball"></a>
+          <div class="redes">
+            <ul class="groupico">
+              <li><a href="https://www.facebook.com/gaming/pokemonletsgopikachu" target="_blank"><img src="assets/img/ico/Facebook_blue.png" class="ico"></a></li>
+              <li><a href="https://www.facebook.com/gaming/pokemonletsgopikachu" target="_blank"><img src="assets/img/ico/Github_yellow.png" class="ico"></a></li>
+              <li><a href="https://www.facebook.com/gaming/pokemonletsgopikachu" target="_blank"><img src="assets/img/ico/linkedIn_red.png" class="ico"></a></li>
+            </ul>
+          </div>
+        </nav> 
+        <article>
+          <div class="cycle-slideshow" data-cycle-slides="> img">     
+                <img src="assets/img/slider/1.jpg" class="w100 slider" />
+                <img src="assets/img/slider/2.jpg" class="w100 slider" />
+                <img src="assets/img/slider/3.jpg" class="w100 slider" />
+          </div>
+        </article> 
+        <div class="container">
+          <div class="row">
+            <div class="col-12 flexc" id="historia">
+              <img src="assets/img/p_logo.png" class="img_poke" title="Pika pika">
+            </div>
+            <div class="col-12 bgdesc">
+                    <div class="bgba">
+                      <div class="bgba_in">
+                        <h3 class="text-center title cb">HISTORIA</h3>
+                        <p class="text-center textdesc">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                      </div>
+                        <div class="row rowdesc">
+                          <div class="col-2 btndesc">
+                          </div>
+                          <div class="col-2 btndesc">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-12 sp20" id="pokemones">
+                <h3 class="text-center title">POKÉMONES</h3>
+                <div class="contenidopk row"></div>
+                <div class="spinner-grow" id="carga" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <div class="col-12 sp20" id="contactenos">
+              <h3 class="text-center title">CONTÁCTENOS</h3>
+              <div class="row nmlr">
+                <div class="col-lg-5 offset-lg-2 col-md-8 col-12 fimg">
+                  <div style="background-image: url('assets/img/mapa.jpg')" class="w100 imgc"></div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 bacgb pad">
+                  <!--form action="#" method="post"-->
+                    <div class="mb-3">
+                      <label for="Input1" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="Input1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="Input2" class="form-label">Asunto</label>
+                      <input type="text" class="form-control" id="Input2" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="Input3" class="form-label">Menasje</label>
+                      <textarea name="textarea" rows="4" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary enviar">Enviar</button>
+                  <!--/form-->
+                </div>
+              </div>
+          </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center wc">Dev. in 2022 - By Alan Bran</p>
+            </div>
+          </div>
+      </div>
+    </footer>
+  <!--Js-->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="https://cdn.rawgit.com/malsup/cycle2/2.1.6/build/jquery.cycle2.min.js"></script>
+  </body>  
+</html>

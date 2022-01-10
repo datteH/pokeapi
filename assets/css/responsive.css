@@ -1,0 +1,147 @@
+/**************************************************************** RESPONSIVE *******************************************************************/
+@media all and (max-width: 1440px)
+{
+
+}
+/************************************/
+
+@media all and (max-width: 1366px)
+{
+
+}
+/************************************/
+
+@media all and (max-width: 1280px)
+{
+    
+}
+/************************************/
+
+@media all and (max-width: 1200px)
+{
+
+}
+/************************************/
+
+@media all and (max-width: 1024px)
+{
+
+}
+/************************************/
+
+@media all and (max-width: 991px)
+{
+    .textdesc {
+        padding: 1% 5%;
+    }
+    .img_poke {
+        width: 25%;
+    }
+}
+/************************************/
+
+@media all and (max-width: 812px)
+{
+    
+}
+/************************************/
+
+@media all and (max-width: 768px)
+{
+    .container, .container-md, .container-sm {
+        max-width: 100% !important;
+    }
+}
+/************************************/
+
+@media all and (max-width: 736px)
+{
+    .pad {
+        padding: 60px;
+    }
+    .imgc{
+        height: 300px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .textdesc {
+        padding: 1% 1%;
+    }
+}
+/************************************/
+
+@media all and (max-width: 667px)
+{
+    .bgdesc {
+        padding: 35px;
+    }
+    .bgba {
+        padding: 20px;
+    }
+    .active-cont {
+        margin-left: 0px;
+    }
+    .side-navbar {
+        z-index: 999;
+    }
+    .side-navbar {
+        background-color: #d10000a1;
+    }
+    #menu-btn{
+        z-index: 99999;   
+    }
+    .nav{
+        padding-top: 45px;
+    }
+    #menu-btn{
+        position: fixed;
+    }
+    .redes{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .groupico{
+        margin-bottom: 0rem;
+        padding-left: 0rem;
+    }
+}
+/************************************/
+
+@media all and (max-width: 585px)
+{
+
+}
+/************************************/
+
+@media all and (max-width: 425px)
+{
+    .img_poke {
+        width: 35%;
+    }
+    .bgdesc {
+        padding: 40px 0px;
+    }
+    .bgba_in {
+        padding: 20px;
+    }
+    .textdesc{
+        text-align: justify !important;
+    }
+    .pad {
+        padding: 40px;
+    }
+}
+/************************************/
+
+@media all and (max-width: 375px)
+{
+    
+}
+/************************************/
+
+@media all and (max-width: 320px)
+{
+    
+}
+/************************************/
